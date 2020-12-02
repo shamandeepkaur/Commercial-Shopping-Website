@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html Lang = "en">
+<head>
+ <title>
+   Order From Artclues
+ </title>
+<meta charset="utf-8">
+</head>
+
+<body>
+
+  <!--heading-->
+  <header>
+    <h2 align = "center"> Hey Folks!!! Order Here</h2>
+  </header>
+
+  <main>
+
+    <!--******fieldset to enclose all the information*****-->
+    <fieldset>
+    <legend>Your Order Information</legend>
+
+    <!--*****form 1 to take information from the user *****-->
+    <form>
+
+      <p style="color:blue">**need to fill all the details</p>
+
+      <p>Your Address</p>
+
+        <label>Name</label>
+        <input type = "text" name = "name">
+        <br>
+
+        <label>Contact Number</label>
+        <input type = "text" name = "Contact Number">
+        <br>
+
+        <label>House Number</label>
+        <input type="text" name="house Number">
+        <br>
+
+        <label>Street Name and Number</label>
+        <input type="text" name="street Name and Number">
+        <br>
+
+        <!--******-->
+        <!--dropdown list -->
+        province<select name="province">
+          <option value="Quebec">Quebec</option>
+          <option value="BC">BC</option>
+          <option value="Ontario">Ontario</option>
+          <option value="Alberta">Alberta</option>
+          <option value="Manitoba">Manitoba</option>
+          <option value="Nova Scotia">Nova Scotia</option>
+        </select>
+
+        <p>choose your payment option </p>
+          <input type="radio" name="cash on delivery" value="cash on delivery">Cash on delivery
+          <input type="radio" name="pay online" value="pay online">Pay online
+        <p>***pay online and track your order***</p>
+    </form>
+    </fieldset>
+
+
+  <fieldset>
+    
+    <!--form2, link to thank you page-->
+    <form action="thanksshoppingwebsite.html">
+
+      <input type="submit" name="submit form" value="submit">
+      <br>
+      <br>
+      <p style="color:blue"><strong>Warning: Clearing form will erase everything you have entered</strong></p>
+      <br>
+      <br>
+      <input type="reset" name="clear Form" value="clear Form">
+      <br>
+
+    </form>
+  </fieldset>
+  </main>
+
+
+</body>
+</html>
